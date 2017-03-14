@@ -1,0 +1,11 @@
+{
+    "presets": [
+        ["es2015", "bluebird"]
+    ],
+    "plugins": [
+        "add-module-exports",
+        ["babel-plugin-transform-builtin-extend", {
+            globals: ["Error", "Array"]
+        }]
+    ]
+}
