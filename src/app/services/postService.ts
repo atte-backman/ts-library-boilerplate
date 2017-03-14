@@ -8,7 +8,7 @@ import {IPost} from 'app/interfaces/post';
 import PostModel from 'app/models/postModel';
 
 /**
- * Service interface for Core's address service.
+ * Service interface for post service.
  *
  * @example
  *
